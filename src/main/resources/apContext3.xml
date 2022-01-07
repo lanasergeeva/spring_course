@@ -7,20 +7,8 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--    <bean id="myPet"
-              class="com.lana.spring.start.Dog"
-              scope="singleton">
-        </bean>-->
-    <!--    <bean id="myPet"
-              class="com.lana.spring.start.Dog"
-              scope="prototype">
-        </bean>-->
-    <bean id="myPet"
-          class="com.lana.spring.start.Dog"
-          init-method="init"
-          destroy-method="destroy"
-          scope="prototype">
-    </bean>
+    <context:component-scan base-package="com"/>
+   <!-- <context:property-placeholder location="classpath:myApp.properties"/>-->
 
 
 </beans>
