@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Scope("prototype")
-@Component("dog")
+/*@Component("dog")*/
 public class Dog implements Pet {
     private String name;
 
