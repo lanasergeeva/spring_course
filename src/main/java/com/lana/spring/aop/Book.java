@@ -1,7 +1,11 @@
 package com.lana.spring.aop;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class Book {
+    @Value("Преступление и наказание")
     private String name;
+    @Value("Ф.М. Достоевский")
     private String author;
 
     public Book() {
