@@ -22,11 +22,9 @@
         <mapping class="com.lana.hiber.entity.Detail"/>
         <mapping class="com.lana.hiber.entity.bidir.EmployeeT"/>
         <mapping class="com.lana.hiber.entity.bidir.DetailT"/>
+        <mapping class="com.lana.hiber.manytoonebi.EmployeeM"/>
+        <mapping class="com.lana.hiber.manytoonebi.DepartmentM"/>
 
 
-     <!--   <mapping class="ru.java.hql.hwfetch.CandidateHW"/>
-        <mapping class="ru.java.hql.hwfetch.BaseOfVacancies"/>
-        <mapping class="ru.java.hql.hwfetch.Vacancy"/>
--->
     </session-factory>
 </hibernate-configuration>

@@ -25,25 +25,25 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>5.2.4.RELEASE</version>
+      <version>5.3.14</version>
     </dependency>
 
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>5.2.4.RELEASE</version>
+      <version>5.3.14</version>
     </dependency>
 
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>5.2.4.RELEASE</version>
+      <version>5.3.14</version>
     </dependency>
     <dependency>
       <groupId>org.aspectj</groupId>
@@ -53,18 +53,18 @@
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
-      <version>1.4.200</version>
+      <version>2.0.206</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>5.4.15.Final</version>
+      <version>5.6.3.Final</version>
     </dependency>
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-      <version>42.2.16</version>
+      <version>42.3.1</version>
     </dependency>
   </dependencies>
 
@@ -115,7 +115,7 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>3.2.0</version>
       </plugin>
-      <plugin>
+    <!--  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.0.0</version>
@@ -126,7 +126,7 @@
               <goal>shade</goal>
             </goals>
             <configuration>
-              <finalName>tracker</finalName>
+              <finalName></finalName>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                   <mainClass></mainClass>
@@ -135,7 +135,7 @@
             </configuration>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
     </plugins>
   </build>
 </project>

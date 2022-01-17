@@ -9,6 +9,7 @@ public class Detail {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
+
     @Column(name = "city")
     private String city;
     @Column(name = "phone_number")
